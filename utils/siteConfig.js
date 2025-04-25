@@ -194,7 +194,7 @@ const analytics = {
 
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD2mT9KA6N7zTRsz-TUDnpfllyBfnQTQH4",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "subarashi-real-estate.firebaseapp.com",
   projectId: "subarashi-real-estate",
   storageBucket: "subarashi-real-estate.appspot.com",
