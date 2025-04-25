@@ -61,14 +61,14 @@ const location = {
   ],
   additionalInfo:
     "Its strategic position near major transportation hubs makes commuting effortless while ensuring residents remain connected to Dubai’s key attractions.",
-  startingPrice: "Starting Price: AED 1.4M",
+  startingPrice: "On request",
   masterPlan:
     "https://res.cloudinary.com/dulafqaoq/image/upload/v1744090334/Terra_Heights_page-0006_iakn7k.jpg",
   apartmentDetails: [
     { label: "Unit Types", value: "Fully licensed F&B retail units with title deeds" },
     { label: "Area Range", value: "From 3,134 sqft (interior) + 2,239 sqft (terrace)" },
-    { label: "Handover Date", value: "2028" },
-    { label: "Payment Plan", value: "Secure your home with just 10% down, followed by easy installments during construction, and 30% on handover in 2028." },
+    { label: "Handover Date", value: "TBA" },
+    { label: "Payment Plan", value: "Flexible plans available (contact for details)" },
     /*{ label: "Deposit Required", value: "20%" },*/
   ],
 };
@@ -76,7 +76,7 @@ const location = {
 // Gallery Section
 const gallery = {
   title: "Gallery",
-  subtitle: "All the dots connect at Terra Heights",
+  subtitle: "See what five-star F&B ownership looks like.",
   images: [
     "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009072/TERRA_HEIGHTS_XL_BROCHURE-35_wbzaqa.jpg",
     "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009069/TERRA_HEIGHTS_XL_BROCHURE-18_nlibic.jpg",
