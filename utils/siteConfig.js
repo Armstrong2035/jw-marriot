@@ -3,13 +3,13 @@
 
 // Site Metadata
 const siteMetadata = {
-  title: "JW MARRIOTT",
+  title: "JW Marriott Residences",
   description:
-    "Terra Heights is a thoughtfully designed residential community just minutes from Expo City. Offering modern 1 and 2-bedroom apartments, this development combines sleek architecture with green open spaces. With a focus on connectivity, sustainability, and lifestyle, Terra Heights is perfect for those seeking a vibrant, well-balanced urban living experience.",
+    "At the very core of Jumeirah Village Circle, lies JW Marriott Residences, a rare opportunity for investors, restaurateurs, and global brands to secure fully licensed, freehold F&B and retail spaces inside a world-renowned hospitality destination. Whether you're launching a flagship venue or expanding your brand presence, these commercial units combine high visibility, full ownership, and minimal operational barriers under a prestigious luxury banner.",
   keywords: [
-    "Emaar",
-    "Terra Heights",
-    "Sobha One",
+    "JW Marriott Residences",
+    "Jumeirah Village Circle",
+    "5-star",
     "Dubai luxury apartments",
     "Dubai real estate",
     "Expo Living",
@@ -29,32 +29,35 @@ const siteMetadata = {
 // Header & Footer
 const header = {
   companyName: "Subarashi",
-  projectName: "Emaar Terra Heights",
+  projectName: "JW Marriott Residences",
 };
 
 // Hero Section
 const hero = {
   title: ["- Modern Living", "made to accommodate", "today, and tomorrow."],
-  projectName: "Terra Heights, Emaar",
-  projectTypes: "1 & 2 bedroom apartments",
+  projectName: "JW Marriott Residences",
+  projectTypes: "Premium F&B Spaces Within a Global 5-star Hospitality Destination",
   description:
-    "Welcome to Terra Heights, an exclusive residential community offering breath-taking views, world-class amenities, and meticulously crafted homes. Inspired by the harmony of nature and urban sophistication, The Element is a sanctuary designed for those who seek elegance and tranquility.",
+    "At the very core of Jumeirah Village Circle, lies JW Marriott Residences, a rare opportunity for investors, restaurateurs, and global brands to secure fully licensed, freehold F&B and retail spaces inside a world-renowned hospitality destination. Whether you're launching a flagship venue or expanding your brand presence, these commercial units combine high visibility, full ownership, and minimal operational barriers under a prestigious luxury banner.",
   ctaText: "Register Your Interest",
   heroImage:
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009068/TERRA_HEIGHTS_XL_BROCHURE-28_y4s08g.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581237/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-21_e1qpix.jpg",
 };
 
 // Location Section
 const location = {
   title: "Location",
-  subtitle: "Prime Intersection with Seamless Connectivity",
+  subtitle: " A Prime Spot at the Center of EVERYTHING.",
   description:
-    "Located within Expo Living, Terra Heights offers a unique blend of modern convenience and natural tranquility.",
+    "JW Marriott Residences in JVC offers seamless access to Dubai’s key locations. Its central position makes it an ideal destination for residents, tourists, and professionals alike. From Dubai Marina to Downtown Dubai, everything is within 30 minutes or less.",
   proximities: [
-    "5 Minutes – Expo City Dubai",
-    "10 Minutes – Al Maktoum International Airport",
-    "15 Minutes – Dubai Marina",
-    "20 Minutes – Downtown Dubai",
+    "10 minutes to Dubai Marina",
+    "10 minutes to Mall of the Emirates",
+    "18 minutes to Palm Jumeirah",
+    "20 minutes to Downtown Dubai",
+    "25 minutes to Jumeirah Beach",
+    "30 minutes to Dubai International Airport",
+    "30 minutes to Al Maktoum International Airport",
   ],
   additionalInfo:
     "Its strategic position near major transportation hubs makes commuting effortless while ensuring residents remain connected to Dubai’s key attractions.",
@@ -62,8 +65,8 @@ const location = {
   masterPlan:
     "https://res.cloudinary.com/dulafqaoq/image/upload/v1744090334/Terra_Heights_page-0006_iakn7k.jpg",
   apartmentDetails: [
-    { label: "Unit Types", value: "1 & 2 Bedrooms" },
-    { label: "Area Range", value: "749 - 1,118 sq.ft" },
+    { label: "Unit Types", value: "Fully licensed F&B retail units with title deeds" },
+    { label: "Area Range", value: "From 3,134 sqft (interior) + 2,239 sqft (terrace)" },
     { label: "Handover Date", value: "2028" },
     { label: "Payment Plan", value: "Secure your home with just 10% down, followed by easy installments during construction, and 30% on handover in 2028." },
     /*{ label: "Deposit Required", value: "20%" },*/
