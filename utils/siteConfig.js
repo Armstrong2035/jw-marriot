@@ -36,7 +36,8 @@ const header = {
 const hero = {
   title: ["- Modern Living", "made to accommodate", "today, and tomorrow."],
   projectName: "JW Marriott Residences",
-  projectTypes: "Premium F&B Spaces Within a Global 5-star Hospitality Destination",
+  projectTypes:
+    "Premium F&B Spaces Within a Global 5-star Hospitality Destination",
   description:
     "At the very core of Jumeirah Village Circle, lies JW Marriott Residences, a rare opportunity for investors, restaurateurs, and global brands to secure fully licensed, freehold F&B and retail spaces inside a world-renowned hospitality destination. Whether you're launching a flagship venue or expanding your brand presence, these commercial units combine high visibility, full ownership, and minimal operational barriers under a prestigious luxury banner.",
   ctaText: "Register Your Interest",
@@ -65,10 +66,19 @@ const location = {
   masterPlan:
     "https://res.cloudinary.com/dulafqaoq/image/upload/v1744090334/Terra_Heights_page-0006_iakn7k.jpg",
   apartmentDetails: [
-    { label: "Unit Types", value: "Fully licensed F&B retail units with title deeds" },
-    { label: "Area Range", value: "From 3,134 sqft (interior) + 2,239 sqft (terrace)" },
+    {
+      label: "Unit Types",
+      value: "Fully licensed F&B retail units with title deeds",
+    },
+    {
+      label: "Area Range",
+      value: "From 3,134 sqft (interior) + 2,239 sqft (terrace)",
+    },
     { label: "Handover Date", value: "TBA" },
-    { label: "Payment Plan", value: "Flexible plans available (contact for details)" },
+    {
+      label: "Payment Plan",
+      value: "Flexible plans available (contact for details)",
+    },
     /*{ label: "Deposit Required", value: "20%" },*/
   ],
 };
@@ -92,8 +102,7 @@ const gallery = {
 // Floor Plan Section
 const floorPlans = {
   title: "Floor Plans",
-  subtitle:
-    "Optimized Layouts Built for Specifically for Hospitality Success",
+  subtitle: "Optimized Layouts Built for Specifically for Hospitality Success",
   additionalText:
     "Open spaces, natural light, and a seamless blend of indoor and outdoor living create a home that feels like a retreat.",
   images: [
@@ -113,7 +122,8 @@ const floorPlans = {
 // Features/Amenities Section
 const features = {
   title: "Features",
-  subtitle: "Rarity in model, intentionality in design - but you can have both at JW Marriot",
+  subtitle:
+    "Rarity in model, intentionality in design - but you can have both at JW Marriot",
   amenitiesTitle: "EXCLUSIVE FEATURES",
   amenities: [
     {
@@ -144,8 +154,7 @@ const features = {
       iconName: "Paid",
       title: "BACKED BY 100M+ AED IN INVESTMENT",
     },
-  ]
-  
+  ],
 };
 
 // Contact Form
@@ -191,12 +200,12 @@ const analytics = {
 // Firebase Configuration
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: "subarashi-real-estate.firebaseapp.com",
-  projectId: "subarashi-real-estate",
-  storageBucket: "subarashi-real-estate.appspot.com",
-  messagingSenderId: "284995572575",
-  appId: "1:284995572575:web:4019d4060000a3a8c81cea",
-  measurementId: "G-LMKH4GB7LP",
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_MEASUREMENT_ID,
 };
 
 // Export all configuration sections
