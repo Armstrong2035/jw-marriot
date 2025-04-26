@@ -9,20 +9,25 @@ import {
   SelfImprovement,
   Pets,
   Restaurant,
+  RestaurantMenu,
+  Deck,
+  VerifiedUser,
+  Build,
+  Flag,
+  Groups,
+  Paid,
 } from "@mui/icons-material";
 import { features } from "@/utils/siteConfig";
 
 // Map of icon names to their components
 const iconMap = {
-  SportsGolf: <SportsGolf sx={{ fontSize: 40 }} />,
-  Pool: <Pool sx={{ fontSize: 40 }} />,
-  FitnessCenter: <FitnessCenter sx={{ fontSize: 40 }} />,
-  Laptop: <Laptop sx={{ fontSize: 40 }} />,
-  Theaters: <Theaters sx={{ fontSize: 40 }} />,
-  Park: <Park sx={{ fontSize: 40 }} />,
-  SelfImprovement: <SelfImprovement sx={{ fontSize: 40 }} />,
-  Pets: <Pets sx={{ fontSize: 40 }} />,
-  Restaurant: <Restaurant sx={{ fontSize: 40 }} />,
+  RestaurantMenu: <RestaurantMenu sx={{ fontSize: 40 }} />,
+  Deck: <Deck sx={{ fontSize: 40 }} />,
+  VerifiedUser: <VerifiedUser sx={{ fontSize: 40 }} />,
+  Build: <Build sx={{ fontSize: 40 }} />,
+  Flag: <Flag sx={{ fontSize: 40 }} />,
+  Groups: <Groups sx={{ fontSize: 40 }} />,
+  Paid: <Paid sx={{ fontSize: 40 }} />,
 };
 
 export default function FeaturesList() {

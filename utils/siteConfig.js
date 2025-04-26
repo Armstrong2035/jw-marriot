@@ -78,14 +78,14 @@ const gallery = {
   title: "Gallery",
   subtitle: "See what five-star F&B ownership looks like.",
   images: [
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009072/TERRA_HEIGHTS_XL_BROCHURE-35_wbzaqa.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009069/TERRA_HEIGHTS_XL_BROCHURE-18_nlibic.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009071/TERRA_HEIGHTS_XL_BROCHURE-32_aewqhq.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009070/TERRA_HEIGHTS_XL_BROCHURE-11_ufxwtz.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009069/TERRA_HEIGHTS_XL_BROCHURE-34_dj4urv.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009066/TERRA_HEIGHTS_XL_BROCHURE-23_dbn0o3.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009067/TERRA_HEIGHTS_XL_BROCHURE-13_j6nufi.jpg",
-    "https://res.cloudinary.com/dulafqaoq/image/upload/v1744009060/TERRA_HEIGHTS_XL_BROCHURE-7_xzpy4a.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581238/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-23_yf7x6k.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581230/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-202_deif8w.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581237/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-18_vhu504.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581236/Toco_Brochure_-_MARRIOTT_JVC-1_m8r01m.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581236/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-43_dhodrn.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581230/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-201_shette.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581230/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-58_j4sd2d.jpg",
+    "https://res.cloudinary.com/dulafqaoq/image/upload/v1745581230/MARRIOTT_JVC_-_PRESENTATION-Medium_NEW_2-22_prawd8.jpg",
   ],
 };
 
@@ -93,7 +93,7 @@ const gallery = {
 const floorPlans = {
   title: "Floor Plans",
   subtitle:
-    "Detailed layouts for 1 & 2-bedroom apartments",
+    "Optimized Layouts Built for Specifically for Hospitality Success",
   additionalText:
     "Open spaces, natural light, and a seamless blend of indoor and outdoor living create a home that feels like a retreat.",
   images: [
@@ -113,46 +113,39 @@ const floorPlans = {
 // Features/Amenities Section
 const features = {
   title: "Features",
-  subtitle: " A Community Built for Relaxation and Recreation",
-  amenitiesTitle: "EXCLUSIVE AMENITIES",
+  subtitle: "Rarity in model, intentionality in design - but you can have both at JW Marriot",
+  amenitiesTitle: "EXCLUSIVE FEATURES",
   amenities: [
     {
-      iconName: "SportsGolf",
-      title: "EXCITING MINI GOLF AREA",
+      iconName: "RestaurantMenu",
+      title: "RESTAURANTS VILLAGE",
     },
     {
-      iconName: "Pool",
-      title: "ADULT AND KIDS POOLS",
+      iconName: "Deck",
+      title: "OUTDOOR & ROOFTOP SEATING",
     },
     {
-      iconName: "FitnessCenter",
-      title: "WELL-EQUIPPED GYM",
+      iconName: "VerifiedUser",
+      title: "TITLE-DEEDED OWNERSHIP",
     },
     {
-      iconName: "Laptop",
-      title: "MULTIPURPOSE ROOMS",
-    },
-    /*{
-      iconName: "Theaters",
-      title: "PRIVATE CINEMA & VR GAMING ZONE",
-    }, */
-    {
-      iconName: "Park",
-      title: "OUTDOOR PLAY SPACES FOR CHILDREN",
+      iconName: "Build",
+      title: "TURNKEY SUPPORT FROM MOTION HOSPITALITY",
     },
     {
-      iconName: "SelfImprovement",
-      title: "YOGA DECK TO UNWIND AND RECHARGE",
+      iconName: "Flag",
+      title: "FLAGSHIP LOCATION BRANDING",
     },
-    /* {
-      iconName: "Pets",
-      title: "PET-FRIENDLY ZONES & LANDSCAPED GARDENS",
-    }, */
     {
-      iconName: "Restaurant",
-      title: "BARBECUE SPOTS FOR SOCIAL EVENINGS",
+      iconName: "Groups",
+      title: "HIGH FOOTFALL VENUE",
     },
-  ],
+    {
+      iconName: "Paid",
+      title: "BACKED BY 100M+ AED IN INVESTMENT",
+    },
+  ]
+  
 };
 
 // Contact Form
